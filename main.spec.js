@@ -31,4 +31,8 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.currentChart).toBe("localBarData");
   });
+  it("G added: There should be a FBBarData.", () => {
+    const defaultData = App.data();
+    expect(typeof defaultData.FBBarData).toBe("object");
+  });
 });
