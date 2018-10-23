@@ -18,7 +18,7 @@ export default {
         ["Apr", 5],
         ["May", 3]
       ],
-      localLineData: [["Sun", 32], ["Mon", 46], ["Tue", 28]]
+      localLineData: [["Sun", 32], ["Mon", 46], ["Tue", 28], ["Wed", 30], ["Sat", 29], ["Thu", 12], ["Fri", 50]]
     };
   },
   methods: {
